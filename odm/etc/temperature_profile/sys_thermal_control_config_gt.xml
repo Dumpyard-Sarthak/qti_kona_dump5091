@@ -1,0 +1,1541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sys_thermal_control_list>
+    <version>2021113020</version>
+    <filter-name>sys_thermal_control_list</filter-name>
+    <featureConfigItem>
+        <feature_enable_item booleanVal="true"/>
+        <feature_safety_test_enable_item booleanVal="true"/>
+        <safety_test_config_item stringVal="01111,10111,11011,11101,11110,00111,01011,01101,01110,10011,10101,10110,11001,11010,11100,11111"/>
+        <category_msg_delay_item intVal="5"/>
+        <ota_mode_item intVal="-3"/>
+        <racing_mode_item intVal="-4"/>
+        <normal_mode_item intVal="0"/>
+        <game_high_perf_mode_item intVal="0"/>
+        <aging_thermal_control_enable_item booleanVal="true"/>
+        <aging_cpu_level_item intVal="3"/>
+    </featureConfigItem>
+
+    <thermalPolicyConfigItem>
+        <safetyTest>
+            <safety_test>
+                <gear_config tempGear="8"
+                cpu="3" gpu="3" restrict="2" brightness="5" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="9"
+                cpu="5" gpu="3" restrict="0" brightness="6" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="150" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="10"
+                cpu="6" gpu="3" restrict="4" brightness="11" charge="3" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="100" disCamera="0" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="11"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="3" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="50" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="1"/>
+            </safety_test>
+        </safetyTest>
+
+        <screenOff>
+            <screen_off>
+                <gear_config tempGear="7"
+                cpu="5" gpu="3" restrict="2" brightness="0" charge="0" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="14"
+                cpu="9" gpu="4" restrict="5" brightness="0" charge="0" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="80" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+            </screen_off>
+        </screenOff>
+
+        <specific>
+            <com.tencent.tmgp.sgame-com.tencent.tmgp.sgamece-com.mobile.legends>
+                <gear_config tempGear="-1"
+                cpu="12" gpu="-1" restrict="0" brightness="3" charge="7" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="0"
+                cpu="12" gpu="-1" restrict="0" brightness="3" charge="7" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="1"
+                cpu="12" gpu="-1" restrict="0" brightness="3" charge="7" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="2"
+                cpu="12" gpu="-1" restrict="0" brightness="3" charge="7" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="3"
+                cpu="12" gpu="-1" restrict="0" brightness="3" charge="7" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="4"
+                cpu="12" gpu="-1" restrict="0" brightness="3" charge="7" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="5"
+                cpu="12" gpu="-1" restrict="0" brightness="3" charge="7" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="6"
+                cpu="10" gpu="-1" restrict="0" brightness="3" charge="5" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="7"
+                cpu="10" gpu="-1" restrict="0" brightness="3" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="8"
+                cpu="10" gpu="-1" restrict="0" brightness="3" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="9"
+                cpu="10" gpu="-1" restrict="0" brightness="6" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="10"
+                cpu="10" gpu="1" restrict="1" brightness="8" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="11"
+                cpu="11" gpu="1" restrict="1" brightness="10" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="12"
+                cpu="7" gpu="2" restrict="3" brightness="10" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="1"/>
+
+                <gear_config tempGear="13"
+                cpu="8" gpu="3" restrict="0" brightness="10" charge="3" modem="3" disFlashlight="0"
+                stopCameraVideo="1" cameraBrightness="100" disCamera="0" disWifiHotSpot="0" disTorch="1" disFrameInsert="0" fps="30" refreshRate="1"/>
+
+                <gear_config tempGear="14"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="3" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="30" refreshRate="1"/>
+            </com.tencent.tmgp.sgame-com.tencent.tmgp.sgamece-com.mobile.legends>
+
+            <com.protopop.brightridge>
+                <gear_config tempGear="4"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+                <gear_config tempGear="5"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+                <gear_config tempGear="9"
+                cpu="0" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+                <gear_config tempGear="10"
+                cpu="1" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+                <gear_config tempGear="11"
+                cpu="2" gpu="0" restrict="1" brightness="6" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+                <gear_config tempGear="13"
+                cpu="3" gpu="2" restrict="4" brightness="11" charge="2" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="100" disCamera="0" disWifiHotSpot="0" disTorch="1" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+                <gear_config tempGear="14"
+                cpu="9" gpu="2" restrict="5" brightness="11" charge="2" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+            </com.protopop.brightridge>
+
+           <com.tencent.ig>
+                <gear_config tempGear="-1"
+                cpu="12" gpu="-1" restrict="0" brightness="3" charge="7" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="0"
+                cpu="12" gpu="-1" restrict="0" brightness="3" charge="7" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="1"
+                cpu="12" gpu="-1" restrict="0" brightness="3" charge="7" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="5"
+                cpu="12" gpu="-1" restrict="0" brightness="3" charge="7" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="6"
+                cpu="1" gpu="-1" restrict="0" brightness="3" charge="5" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="7"
+                cpu="1" gpu="-1" restrict="0" brightness="3" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="9"
+                cpu="1" gpu="-1" restrict="0" brightness="6" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="10"
+                cpu="10" gpu="-1" restrict="0" brightness="8" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="75" refreshRate="0"/>
+
+                <gear_config tempGear="11"
+                cpu="10" gpu="-1" restrict="0" brightness="10" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="75" refreshRate="0"/>
+
+                <gear_config tempGear="12"
+                cpu="7" gpu="-1" restrict="3" brightness="10" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="75" refreshRate="0"/>
+
+                <gear_config tempGear="13"
+                cpu="8" gpu="3" restrict="0" brightness="10" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="1" cameraBrightness="100" disCamera="0" disWifiHotSpot="0" disTorch="1" disFrameInsert="0" fps="60" refreshRate="1"/>
+
+                <gear_config tempGear="14"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="2" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="60" refreshRate="1"/>
+           </com.tencent.ig>
+
+           <com.pubg.imobile>
+                <gear_config tempGear="-1"
+                cpu="12" gpu="-1" restrict="0" brightness="3" charge="7" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+                <gear_config tempGear="0"
+                cpu="12" gpu="-1" restrict="0" brightness="3" charge="7" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="1"
+                cpu="12" gpu="-1" restrict="0" brightness="3" charge="7" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="5"
+                cpu="12" gpu="-1" restrict="0" brightness="3" charge="7" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="6"
+                cpu="0" gpu="-1" restrict="0" brightness="3" charge="5" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="7"
+                cpu="0" gpu="-1" restrict="0" brightness="3" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="9"
+                cpu="1" gpu="-1" restrict="0" brightness="6" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="10"
+                cpu="10" gpu="-1" restrict="0" brightness="8" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="75" refreshRate="0"/>
+
+                <gear_config tempGear="11"
+                cpu="10" gpu="-1" restrict="0" brightness="10" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="75" refreshRate="0"/>
+
+                <gear_config tempGear="12"
+                cpu="7" gpu="-1" restrict="3" brightness="10" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="75" refreshRate="0"/>
+
+                <gear_config tempGear="13"
+                cpu="8" gpu="3" restrict="0" brightness="10" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="1" cameraBrightness="100" disCamera="0" disWifiHotSpot="0" disTorch="1" disFrameInsert="0" fps="60" refreshRate="1"/>
+
+                <gear_config tempGear="14"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="2" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="60" refreshRate="1"/>
+           </com.pubg.imobile>
+
+           <com.netease.chiji>
+                <gear_config tempGear="-1"
+                cpu="13" gpu="-1" restrict="0" brightness="3" charge="7" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="60" refreshRate="1"/>
+
+                <gear_config tempGear="0"
+                cpu="13" gpu="-1" restrict="0" brightness="3" charge="7" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="60" refreshRate="1"/>
+
+                <gear_config tempGear="1"
+                cpu="13" gpu="-1" restrict="0" brightness="3" charge="7" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="60" refreshRate="1"/>
+
+                <gear_config tempGear="2"
+                cpu="13" gpu="-1" restrict="0" brightness="3" charge="7" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="60" refreshRate="1"/>
+
+                <gear_config tempGear="3"
+                cpu="13" gpu="-1" restrict="0" brightness="3" charge="7" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="60" refreshRate="1"/>
+
+                <gear_config tempGear="4"
+                cpu="13" gpu="-1" restrict="0" brightness="3" charge="5" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="60" refreshRate="1"/>
+
+                <gear_config tempGear="5"
+                cpu="13" gpu="-1" restrict="0" brightness="3" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="60" refreshRate="1"/>
+
+                <gear_config tempGear="6"
+                cpu="13" gpu="-1" restrict="0" brightness="3" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="60" refreshRate="1"/>
+
+                <gear_config tempGear="7"
+                cpu="13" gpu="-1" restrict="0" brightness="3" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="60" refreshRate="1"/>
+
+                <gear_config tempGear="8"
+                cpu="13" gpu="-1" restrict="0" brightness="3" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="60" refreshRate="1"/>
+
+                <gear_config tempGear="9"
+                cpu="13" gpu="-1" restrict="0" brightness="6" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="60" refreshRate="1"/>
+
+                <gear_config tempGear="10"
+                cpu="10" gpu="1" restrict="3" brightness="8" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="60" refreshRate="1"/>
+
+                <gear_config tempGear="11"
+                cpu="11" gpu="1" restrict="0" brightness="10" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="1" cameraBrightness="100" disCamera="0" disWifiHotSpot="0" disTorch="1" disFrameInsert="0" fps="60" refreshRate="1"/>
+
+                <gear_config tempGear="12"
+                cpu="7" gpu="2" restrict="0" brightness="10" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="1" cameraBrightness="100" disCamera="0" disWifiHotSpot="0" disTorch="1" disFrameInsert="0" fps="60" refreshRate="1"/>
+
+                <gear_config tempGear="13"
+                cpu="8" gpu="3" restrict="0" brightness="10" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="1" cameraBrightness="100" disCamera="0" disWifiHotSpot="0" disTorch="1" disFrameInsert="0" fps="30" refreshRate="1"/>
+
+                <gear_config tempGear="14"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="2" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="30" refreshRate="1"/>
+           </com.netease.chiji>
+
+           <com.tencent.tmgp.wuxia>
+                <gear_config tempGear="5"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="7" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="6"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="7"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="10"
+                cpu="1" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="11"
+                cpu="1" gpu="-1" restrict="0" brightness="6" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="12"
+                cpu="1" gpu="-1" restrict="3" brightness="11" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="13"
+                cpu="2" gpu="3" restrict="0" brightness="11" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="1" cameraBrightness="100" disCamera="0" disWifiHotSpot="0" disTorch="1" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="14"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="2" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="0"/>
+           </com.tencent.tmgp.wuxia>
+
+           <com.tencent.tmgp.speedmobile-com.tencent.tmgp.cf-com.tencent.tmgp.cod>
+               <gear_config tempGear="5"
+               cpu="-1" gpu="-1" restrict="0" brightness="0" charge="7" modem="0" disFlashlight="0"
+               stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+               <gear_config tempGear="6"
+               cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
+               stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+               <gear_config tempGear="7"
+               cpu="-1" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+               stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+               <gear_config tempGear="9"
+               cpu="0" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+               stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+               <gear_config tempGear="10"
+               cpu="0" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+               stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="11"
+                cpu="1" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="100" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="12"
+                cpu="2" gpu="-1" restrict="3" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="100" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="13"
+                cpu="4" gpu="3" restrict="0" brightness="0" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="1" cameraBrightness="100" disCamera="0" disWifiHotSpot="0" disTorch="1" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+               <gear_config tempGear="14"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="2" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="0"/>
+            </com.tencent.tmgp.speedmobile-com.tencent.tmgp.cf-com.tencent.tmgp.cod>
+
+            <com.miHoYo.Yuanshen>
+                <gear_config tempGear="5"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="7" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="6"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="7"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="9"
+                cpu="0" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="10"
+                cpu="1" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="11"
+                cpu="2" gpu="-1" restrict="0" brightness="6" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="100" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="12"
+                cpu="5" gpu="3" restrict="3" brightness="11" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="0" disWifiHotSpot="0" disTorch="1" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="13"
+                cpu="5" gpu="3" restrict="0" brightness="11" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="0" disWifiHotSpot="0" disTorch="1" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+               <gear_config tempGear="14"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="2" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="50" refreshRate="0"/>
+            </com.miHoYo.Yuanshen>
+
+            <com.mobile.legends>
+                <gear_config tempGear="3"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+                <gear_config tempGear="4"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+                <gear_config tempGear="7"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+                <gear_config tempGear="8"
+                cpu="0" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+                <gear_config tempGear="9"
+                cpu="1" gpu="-1" restrict="1" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+                <gear_config tempGear="10"
+                cpu="2" gpu="3" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+                <gear_config tempGear="11"
+                cpu="2" gpu="3" restrict="4" brightness="11" charge="3" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="100" disCamera="0" disWifiHotSpot="0" disTorch="1" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+                <gear_config tempGear="14"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="3" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+            </com.mobile.legends>
+
+            <com.yingxiong.dftk.nearme.gamecenter--com.yingxiong.dftk.yx-com.tencent.tmgp.dftkzjzg-com.yunbu.rehtona.nearme.gamecenter-com.denachina.g13002010.denacn-com.denachina.g13002010.nearme.gamecenter-com.tencent.tmgp.g13002010>
+                <gear_config tempGear="4"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+                <gear_config tempGear="5"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+                <gear_config tempGear="7"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+                <gear_config tempGear="8"
+                cpu="1" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="100" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+                <gear_config tempGear="9"
+                cpu="1" gpu="-1" restrict="1" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="80" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+                <gear_config tempGear="10"
+                cpu="1" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="60" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+                <gear_config tempGear="11"
+                cpu="2" gpu="3" restrict="4" brightness="0" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="1" cameraBrightness="100" disCamera="0" disWifiHotSpot="0" disTorch="1" disFrameInsert="0" fps="50" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+                <gear_config tempGear="14"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="2" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="50" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+           </com.yingxiong.dftk.nearme.gamecenter--com.yingxiong.dftk.yx-com.tencent.tmgp.dftkzjzg-com.yunbu.rehtona.nearme.gamecenter-com.denachina.g13002010.denacn-com.denachina.g13002010.nearme.gamecenter-com.tencent.tmgp.g13002010>
+
+           <com.denachina.g13002010.nearme.gamecenter>
+                <gear_config tempGear="4"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+                <gear_config tempGear="5"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+                <gear_config tempGear="7"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+                <gear_config tempGear="8"
+                cpu="1" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+                <gear_config tempGear="9"
+                cpu="1" gpu="-1" restrict="1" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="80" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+                <gear_config tempGear="10"
+                cpu="1" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="60" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+                <gear_config tempGear="11"
+                cpu="2" gpu="3" restrict="4" brightness="0" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="1" cameraBrightness="100" disCamera="0" disWifiHotSpot="0" disTorch="1" disFrameInsert="0" fps="50" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+                <gear_config tempGear="14"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="2" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="50" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+           </com.denachina.g13002010.nearme.gamecenter>
+
+           <com.tencent.weishi>
+                <gear_config tempGear="4"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+                <gear_config tempGear="5"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+                <gear_config tempGear="7"
+                cpu="0" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+                <gear_config tempGear="8"
+                cpu="1" gpu="-1" restrict="1" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+
+                <gear_config tempGear="10"
+                cpu="2" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+
+                <gear_config tempGear="11"
+                cpu="3" gpu="3" restrict="4" brightness="0" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="1" cameraBrightness="100" disCamera="0" disWifiHotSpot="1" disTorch="0" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+
+                <gear_config tempGear="13"
+                cpu="8" gpu="3" restrict="0" brightness="11" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="1" cameraBrightness="100" disCamera="0" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+
+                <gear_config tempGear="14"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="2" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+           </com.tencent.weishi>
+
+           <com.oppo.launcher>
+                <gear_config tempGear="5"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="7" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="7"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="8"
+                cpu="1" gpu="-1" restrict="0" brightness="0" charge="3" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+                <gear_config tempGear="9"
+                cpu="2" gpu="-1" restrict="1" brightness="0" charge="3" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+                <gear_config tempGear="10"
+                cpu="3" gpu="-1" restrict="0" brightness="0" charge="3" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+                <gear_config tempGear="11"
+                cpu="4" gpu="3" restrict="4" brightness="11" charge="3" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="80" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+                <gear_config tempGear="12"
+                cpu="5" gpu="3" restrict="0" brightness="11" charge="3" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="80" disCamera="0" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+                <gear_config tempGear="13"
+                cpu="5" gpu="3" restrict="0" brightness="11" charge="3" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="0" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+                <gear_config tempGear="14"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="3" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+            </com.oppo.launcher>
+            <com.tencent.tmgp.eyou.blqx-com.netease.blqx.nearme.gamecenter-com.netease.blqx-com.netease.lztg-com.netease.lztg.nearme.gamecenter-com.tencent.tmgp.yongyong.lztg-com.netease.yokaikoya-com.netease.yokaikoya.nearme.gamecenter-com.tencent.tmgp.eyou.ygwu>
+                <gear_config tempGear="3"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="7" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="4"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="5"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="7"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="8"
+                cpu="-1" gpu="-1" restrict="1" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="9"
+                cpu="1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="80" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="10"
+                cpu="2" gpu="3" restrict="4" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="1" cameraBrightness="100" disCamera="0" disWifiHotSpot="1" disTorch="0" disFrameInsert="0" fps="60" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="11"
+                cpu="6" gpu="3" restrict="0" brightness="0" charge="3" modem="3" disFlashlight="0"
+                stopCameraVideo="1" cameraBrightness="100" disCamera="0" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="50" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="12"
+                cpu="8" gpu="3" restrict="0" brightness="11" charge="3" modem="3" disFlashlight="0"
+                stopCameraVideo="1" cameraBrightness="100" disCamera="0" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="50" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="13"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="3" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="50" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+            </com.tencent.tmgp.eyou.blqx-com.netease.blqx.nearme.gamecenter-com.netease.blqx-com.netease.lztg-com.netease.lztg.nearme.gamecenter-com.tencent.tmgp.yongyong.lztg-com.netease.yokaikoya-com.netease.yokaikoya.nearme.gamecenter-com.tencent.tmgp.eyou.ygwu>
+
+            <com.netease.moba-com.netease.moba.nearme.gamecenter-ccom.tencent.tmgp.kaopu.jzpaj-com.pwrd.xsmdl.laohu-com.xsmdl.nearme.gamecenter-com.tencent.tmgp.xsmdl-com.youzu.bs-com.youzu.bs.nearme.gamecenter-com.tencent.tmgp.supercell.brawlstars>
+                <gear_config tempGear="3"
+                    cpu="-1" gpu="-1" restrict="0" brightness="0" charge="7" modem="0" disFlashlight="0"
+                    stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="4"
+                    cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
+                    stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="5"
+                    cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                    stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="7"
+                    cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                    stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="8"
+                    cpu="1" gpu="-1" restrict="1" brightness="0" charge="3" modem="0" disFlashlight="0"
+                    stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="100" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="9"
+                    cpu="1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                    stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="80" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="10"
+                    cpu="2" gpu="3" restrict="4" brightness="0" charge="3" modem="0" disFlashlight="0"
+                    stopCameraVideo="1" cameraBrightness="100" disCamera="0" disWifiHotSpot="1" disTorch="0" disFrameInsert="0" fps="60" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="11"
+                    cpu="6" gpu="3" restrict="0" brightness="0" charge="3" modem="3" disFlashlight="0"
+                    stopCameraVideo="1" cameraBrightness="100" disCamera="0" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="50" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="12"
+                    cpu="8" gpu="3" restrict="0" brightness="11" charge="3" modem="3" disFlashlight="0"
+                    stopCameraVideo="1" cameraBrightness="100" disCamera="0" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="50" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="13"
+                    cpu="9" gpu="4" restrict="5" brightness="11" charge="3" modem="3" disFlashlight="1"
+                    stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="50" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+            </com.netease.moba-com.netease.moba.nearme.gamecenter-ccom.tencent.tmgp.kaopu.jzpaj-com.pwrd.xsmdl.laohu-com.xsmdl.nearme.gamecenter-com.tencent.tmgp.xsmdl-com.youzu.bs-com.youzu.bs.nearme.gamecenter-com.tencent.tmgp.supercell.brawlstars>
+            <com.volvapps.ef5.x.nearme.gamecenter-com.tencent.tmgp.ef5-com.netease.x19-com.netease.mc.nearme.gamecenter-com.tencent.tmgp.wdsj666-com.tencent.game.rhythmmaster>
+                <gear_config tempGear="3"
+                    cpu="-1" gpu="-1" restrict="0" brightness="0" charge="7" modem="0" disFlashlight="0"
+                    stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="4"
+                    cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
+                    stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="5"
+                    cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                    stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="7"
+                    cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                    stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="8"
+                    cpu="-1" gpu="-1" restrict="1" brightness="0" charge="3" modem="0" disFlashlight="0"
+                    stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="9"
+                    cpu="1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                    stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="80" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="10"
+                    cpu="2" gpu="3" restrict="4" brightness="0" charge="3" modem="0" disFlashlight="0"
+                    stopCameraVideo="1" cameraBrightness="100" disCamera="0" disWifiHotSpot="1" disTorch="0" disFrameInsert="0" fps="60" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="11"
+                    cpu="6" gpu="3" restrict="0" brightness="0" charge="3" modem="3" disFlashlight="0"
+                    stopCameraVideo="1" cameraBrightness="100" disCamera="0" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="50" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="12"
+                    cpu="8" gpu="3" restrict="0" brightness="11" charge="3" modem="3" disFlashlight="0"
+                    stopCameraVideo="1" cameraBrightness="100" disCamera="0" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="50" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="13"
+                    cpu="9" gpu="4" restrict="5" brightness="11" charge="3" modem="3" disFlashlight="1"
+                    stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="50" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+            </com.volvapps.ef5.x.nearme.gamecenter-com.tencent.tmgp.ef5-com.netease.x19-com.netease.mc.nearme.gamecenter-com.tencent.tmgp.wdsj666-com.tencent.game.rhythmmaster>
+
+            <com.baidu.BaiduMap-com.autonavi.minimap-com.tencent.map-com.ovital.ovitalMap-com.google.android.apps.maps>
+                <gear_config tempGear="3"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="5"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="7"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="8"
+                cpu="3" gpu="-1" restrict="0" brightness="0" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="9"
+                cpu="5" gpu="-1" restrict="1" brightness="0" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="10"
+                cpu="5" gpu="-1" restrict="1" brightness="0" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="11"
+                cpu="6" gpu="3" restrict="4" brightness="0" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="1" cameraBrightness="100" disCamera="0" disWifiHotSpot="1" disTorch="0" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="15"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="2" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+            </com.baidu.BaiduMap-com.autonavi.minimap-com.tencent.map-com.ovital.ovitalMap-com.google.android.apps.maps>
+            <com.riotgames.internal.wildrift.trunk-com.riotgames.internal.wildrift.test-com.riotgames.league.wildriftvn-com.riotgames.league.wildrifttw-com.riotgames.league.wildrift-com.tencent.lolm>
+                <gear_config tempGear="2"
+                    cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
+                    stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="3"
+                    cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                    stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="7"
+                    cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                    stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="8"
+                    cpu="2" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                    stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="9"
+                    cpu="2" gpu="-1" restrict="1" brightness="0" charge="3" modem="0" disFlashlight="0"
+                    stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="11"
+                    cpu="8" gpu="3" restrict="4" brightness="11" charge="3" modem="3" disFlashlight="1"
+                    stopCameraVideo="1" cameraBrightness="100" disCamera="0" disWifiHotSpot="0" disTorch="1" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="14"
+                    cpu="9" gpu="4" restrict="5" brightness="11" charge="3" modem="3" disFlashlight="1"
+                    stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+            </com.riotgames.internal.wildrift.trunk-com.riotgames.internal.wildrift.test-com.riotgames.league.wildriftvn-com.riotgames.league.wildrifttw-com.riotgames.league.wildrift-com.tencent.lolm>
+
+            <com.pubg.krmobile-com.vng.pubgmobile-com.rekoo.pubgm-com.tencent.tmgp.projectg-com.tencent.igce>
+                <gear_config tempGear="2"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="3"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="7"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="8"
+                cpu="0" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="9"
+                cpu="1" gpu="-1" restrict="1" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="80" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="10"
+                cpu="1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="60" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="11"
+                cpu="2" gpu="3" restrict="4" brightness="11" charge="3" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="100" disCamera="0" disWifiHotSpot="0" disTorch="1" disFrameInsert="0" fps="50" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="14"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="3" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="50" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+            </com.pubg.krmobile-com.vng.pubgmobile-com.rekoo.pubgm-com.tencent.tmgp.projectg-com.tencent.igce>
+
+            <com.pwrd.smdl-com.tencent.YiRen-com.tencent.KiHan>
+                <gear_config tempGear="2"
+               cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
+               stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="3"
+               cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+               stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="8"
+               cpu="0" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+               stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="9"
+               cpu="1" gpu="-1" restrict="1" brightness="0" charge="3" modem="0" disFlashlight="0"
+               stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="80" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="10"
+                cpu="1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="100" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="60" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="11"
+                cpu="2" gpu="3" restrict="4" brightness="11" charge="3" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="100" disCamera="0" disWifiHotSpot="0" disTorch="1" disFrameInsert="0" fps="60" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="14"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="3" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="60" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+            </com.pwrd.smdl-com.tencent.YiRen-com.tencent.KiHan>
+
+            <com.miHoYo.bh3.nearme.gamecenter-com.pwrd.xxajh-com.miHoYo.enterprise.NGHSoD-com.tencent.tmgp.djsy>
+                <gear_config tempGear="2"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="3"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="7"
+                cpu="1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="55" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="8"
+                cpu="1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="50" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="9"
+                cpu="2" gpu="-1" restrict="1" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="50" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="10"
+                cpu="2" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="100" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="50" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="11"
+                cpu="2" gpu="3" restrict="4" brightness="11" charge="3" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="0" disWifiHotSpot="0" disTorch="1" disFrameInsert="0" fps="50" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="14"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="3" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="50" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+            </com.miHoYo.bh3.nearme.gamecenter-com.pwrd.xxajh-com.miHoYo.enterprise.NGHSoD-com.tencent.tmgp.djsy>
+
+            <com.oppo.daydreamvideo>
+                <gear_config tempGear="2"
+                cpu="1" gpu="1" restrict="0" brightness="0" charge="1" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="3"
+                cpu="2" gpu="3" restrict="0" brightness="0" charge="1" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="4"
+                cpu="3" gpu="3" restrict="0" brightness="0" charge="1" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+            </com.oppo.daydreamvideo>
+
+            <com.ss.android.ugc.aweme-com.smile.gifmaker-com.ss.android.ugc.live-com.zhiliaoapp.musically.go>
+                <gear_config tempGear="2"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="7" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="3"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="7" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="4"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="5"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="7"
+                cpu="0" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="8"
+                cpu="2" gpu="-1" restrict="0" brightness="0" charge="3" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+                <gear_config tempGear="9"
+                cpu="3" gpu="-1" restrict="1" brightness="0" charge="3" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+                <gear_config tempGear="10"
+                cpu="5" gpu="-1" restrict="0" brightness="0" charge="3" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+                <gear_config tempGear="11"
+                cpu="6" gpu="3" restrict="4" brightness="11" charge="3" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="0" disWifiHotSpot="0" disTorch="1" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+                <gear_config tempGear="14"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="3" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+            </com.ss.android.ugc.aweme-com.smile.gifmaker-com.ss.android.ugc.live-com.zhiliaoapp.musically.go>
+
+            <com.coloros.backuprestore>
+                <gear_config tempGear="3"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="6"
+                cpu="6" gpu="4" restrict="0" brightness="11" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="7"
+                cpu="9" gpu="4" restrict="0" brightness="11" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="80" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+            </com.coloros.backuprestore>
+
+            <com.tencent.qqpim-com.tencent.transfer>
+                <gear_config tempGear="3"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" thermalSerious="1300"/>
+
+                <gear_config tempGear="6"
+                cpu="6" gpu="4" restrict="0" brightness="11" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" thermalSerious="1300"/>
+
+                <gear_config tempGear="7"
+                cpu="9" gpu="4" restrict="0" brightness="11" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="80" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" thermalSerious="1300"/>
+            </com.tencent.qqpim-com.tencent.transfer>
+
+            <com.heytap.market-com.baidu.netdisk-com.android.vending-com.huawei.appmarket>
+                <gear_config tempGear="2"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="3"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="4"
+                cpu="2" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="7"
+                cpu="3" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="8"
+                cpu="4" gpu="-1" restrict="1" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="11"
+                cpu="5" gpu="3" restrict="4" brightness="0" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="1" cameraBrightness="100" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="14"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="2" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+            </com.heytap.market-com.baidu.netdisk-com.android.vending-com.huawei.appmarket>
+
+            <com.happyelements.AndroidAnimal-com.qqgame.hlddz-cn.jj-com.tencent.lzhx-com.mfp.jelly.oppo-com.nearme.gamecenter.ddz.nearme.gamecenter-com.tencent.peng-com.qqgame.happymj>
+                <gear_config tempGear="2"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="3"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="5"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="7"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="8"
+                cpu="2" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="9"
+                cpu="5" gpu="-1" restrict="1" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="10"
+                cpu="5" gpu="-1" restrict="1" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="11"
+                cpu="6" gpu="3" restrict="4" brightness="11" charge="3" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="0" disWifiHotSpot="0" disTorch="1" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="14"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="3" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+            </com.happyelements.AndroidAnimal-com.qqgame.hlddz-cn.jj-com.tencent.lzhx-com.mfp.jelly.oppo-com.nearme.gamecenter.ddz.nearme.gamecenter-com.tencent.peng-com.qqgame.happymj>
+
+	    <com.tencent.mm-com.teamtalk.im-com.tencent.mobileqq-com.eg.android.AlipayGphone>
+                <gear_config tempGear="2"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="9" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="3"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="7" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="4"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="5"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="6"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="7"
+                cpu="0" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="8"
+                cpu="1" gpu="-1" restrict="1" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="1" fps="0" refreshRate="0" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+                <gear_config tempGear="10"
+                cpu="2" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="1" fps="0" refreshRate="1" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+                <gear_config tempGear="11"
+                cpu="3" gpu="3" restrict="4" brightness="0" charge="3" modem="3" disFlashlight="0"
+                stopCameraVideo="1" cameraBrightness="100" disCamera="0" disWifiHotSpot="1" disTorch="1" disFrameInsert="1" fps="0" refreshRate="1" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+                <gear_config tempGear="13"
+                cpu="8" gpu="3" restrict="0" brightness="11" charge="3" modem="3" disFlashlight="0"
+                stopCameraVideo="1" cameraBrightness="100" disCamera="0" disWifiHotSpot="1" disTorch="1" disFrameInsert="1" fps="0" refreshRate="1" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+                <gear_config tempGear="14"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="3" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="1" fps="0" refreshRate="1" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+            </com.tencent.mm-com.teamtalk.im-com.tencent.mobileqq-com.eg.android.AlipayGphone>
+
+            <com.t2ksports.nba2k15android-com.t2ksports.nba2k16android-com.t2ksports.nba2k17android-com.t2ksports.nba2k18and-com.t2ksports.nba2k19and-com.t2ksports.nba2k20and>
+                <gear_config tempGear="2"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="4"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="6"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="7"
+                cpu="1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="8"
+                cpu="3" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="9"
+                cpu="4" gpu="-1" restrict="1" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="10"
+                cpu="5" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="11"
+                cpu="6" gpu="3" restrict="4" brightness="11" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="80" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="12"
+                cpu="6" gpu="3" restrict="0" brightness="11" charge="2" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="0" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="13"
+                cpu="9" gpu="4" restrict="0" brightness="11" charge="2" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="0" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="14"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="2" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+            </com.t2ksports.nba2k15android-com.t2ksports.nba2k16android-com.t2ksports.nba2k17android-com.t2ksports.nba2k18and-com.t2ksports.nba2k19and-com.t2ksports.nba2k20and>
+
+            <com.tencent.qqlive-com.youku.phone-com.qiyi.video-com.tencent.qqsports-com.google.android.youtube-com.netflix.mediaclient-com.amazon.avod.thirdpartyclient>
+                <gear_config tempGear="2"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="9" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="3"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="7" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="4"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="5"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="7"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="8"
+                cpu="5" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+                <gear_config tempGear="9"
+                cpu="5" gpu="-1" restrict="1" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+                <gear_config tempGear="10"
+                cpu="5" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+                <gear_config tempGear="11"
+                cpu="6" gpu="3" restrict="4" brightness="11" charge="3" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="0" disWifiHotSpot="0" disTorch="1" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+                <gear_config tempGear="14"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="3" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+            </com.tencent.qqlive-com.youku.phone-com.qiyi.video-com.tencent.qqsports-com.google.android.youtube-com.netflix.mediaclient-com.amazon.avod.thirdpartyclient>
+
+            <org.zwanoo.android.speedtest-org.zwanoo.android.speedtest.china-com.network.test-com.splashpadmobile.speedtest>
+                <gear_config tempGear="3"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="60" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+                <gear_config tempGear="4"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="60" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+                <gear_config tempGear="6"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="60" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+               <gear_config tempGear="7"
+                cpu="2" gpu="-1" restrict="0" brightness="2" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="60" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+                <gear_config tempGear="8"
+                cpu="3" gpu="-1" restrict="0" brightness="2" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="60" refreshRate="1" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+
+                <gear_config tempGear="9"
+                cpu="4" gpu="-1" restrict="1" brightness="4" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="60" refreshRate="1" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+
+                <gear_config tempGear="10"
+                cpu="4" gpu="-1" restrict="0" brightness="6" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="60" refreshRate="1" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+
+                <gear_config tempGear="11"
+                cpu="4" gpu="3" restrict="4" brightness="8" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="80" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="60" refreshRate="1" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+
+                <gear_config tempGear="12"
+                cpu="4" gpu="3" restrict="4" brightness="11" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="80" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="60" refreshRate="1" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+
+                <gear_config tempGear="14"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="3" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="60" refreshRate="1" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+            </org.zwanoo.android.speedtest-org.zwanoo.android.speedtest.china-com.network.test-com.splashpadmobile.speedtest>
+            <com.oppo.camera-com.oplus.camera>
+                <gear_config tempGear="3"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="4"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="8"
+                cpu="1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="9"
+                cpu="2" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="10"
+                cpu="2" gpu="3" restrict="3" brightness="0" charge="3" modem="0" disFlashlight="1"
+                stopCameraVideo="0" cameraBrightness="100" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="11"
+                cpu="3" gpu="3" restrict="0" brightness="11" charge="2" modem="3" disFlashlight="1"
+                stopCameraVideo="0" cameraBrightness="80" disCamera="0" disWifiHotSpot="1" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="12"
+                cpu="9" gpu="4" restrict="0" brightness="11" charge="2" modem="3" disFlashlight="1"
+                stopCameraVideo="0" cameraBrightness="50" disCamera="0" disWifiHotSpot="1" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+                
+                <gear_config tempGear="13"
+                cpu="9" gpu="4" restrict="0" brightness="11" charge="2" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="50" disCamera="0" disWifiHotSpot="1" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="14"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="2" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="50" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="0"/>
+            </com.oppo.camera-com.oplus.camera>
+        </specific>
+
+        <specificScene>
+            <com.tencent.mm_scene_103-com.tencent.mobileqq_103>
+                <gear_config tempGear="2"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="9" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="3"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="7" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="4"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="5"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="6"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="7"
+                cpu="0" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="8"
+                cpu="1" gpu="-1" restrict="1" brightness="0" charge="3" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="1" fps="0" refreshRate="0" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+                <gear_config tempGear="10"
+                cpu="2" gpu="-1" restrict="0" brightness="0" charge="3" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="1" fps="0" refreshRate="1" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+                <gear_config tempGear="11"
+                cpu="3" gpu="3" restrict="4" brightness="11" charge="3" modem="3" disFlashlight="0"
+                stopCameraVideo="1" cameraBrightness="100" disCamera="0" disWifiHotSpot="1" disTorch="1" disFrameInsert="1" fps="0" refreshRate="1" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+                <gear_config tempGear="13"
+                cpu="8" gpu="3" restrict="0" brightness="11" charge="3" modem="3" disFlashlight="0"
+                stopCameraVideo="1" cameraBrightness="100" disCamera="0" disWifiHotSpot="1" disTorch="1" disFrameInsert="1" fps="0" refreshRate="1" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+                <gear_config tempGear="14"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="3" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="1" fps="0" refreshRate="1" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+            </com.tencent.mm_scene_103-com.tencent.mobileqq_103>
+        </specificScene>
+
+        <scene>
+            <scene_16>
+                <gear_config tempGear="3"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="5"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="7"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="8"
+                cpu="3" gpu="-1" restrict="0" brightness="0" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="9"
+                cpu="5" gpu="-1" restrict="1" brightness="0" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="10"
+                cpu="5" gpu="-1" restrict="1" brightness="0" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="11"
+                cpu="6" gpu="3" restrict="4" brightness="0" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="1" cameraBrightness="100" disCamera="0" disWifiHotSpot="1" disTorch="0" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="15"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="2" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+            </scene_16>
+
+            <scene_101>
+                <gear_config tempGear="3"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="4"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="5"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="7"
+                cpu="1" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="8"
+                cpu="2" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="9"
+                cpu="3" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="10"
+                cpu="3" gpu="-1" restrict="3" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="1"/>
+
+                <gear_config tempGear="11"
+                cpu="6" gpu="3" restrict="0" brightness="0" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="80" disCamera="0" disWifiHotSpot="0" disTorch="1" disFrameInsert="0" fps="0" refreshRate="1"/>
+
+                <gear_config tempGear="14"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="2" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="1"/>
+            </scene_101>
+
+            <scene_102>
+                <gear_config tempGear="0"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="7"
+                cpu="0" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="8"
+                cpu="1" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="10"
+                cpu="1" gpu="-1" restrict="3" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="11"
+                cpu="6" gpu="3" restrict="0" brightness="0" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="0" disWifiHotSpot="0" disTorch="1" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="14"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="2" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="0"/>
+            </scene_102>
+
+            <scene_103>
+                <gear_config tempGear="3"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="4"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="5"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="7"
+                cpu="1" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="8"
+                cpu="2" gpu="-1" restrict="0" brightness="0" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="9"
+                cpu="3" gpu="-1" restrict="0" brightness="0" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="1"/>
+
+                <gear_config tempGear="10"
+                cpu="3" gpu="-1" restrict="3" brightness="0" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="1"/>
+
+                <gear_config tempGear="11"
+                cpu="6" gpu="3" restrict="0" brightness="0" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="0" disWifiHotSpot="0" disTorch="1" disFrameInsert="0" fps="0" refreshRate="1"/>
+
+                <gear_config tempGear="14"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="2" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="1"/>
+            </scene_103>
+
+            <scene_104>
+                <gear_config tempGear="4"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+		<gear_config tempGear="5"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+		<gear_config tempGear="7"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+		<gear_config tempGear="9"
+                cpu="1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+		<gear_config tempGear="10"
+                cpu="2" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+		<gear_config tempGear="11"
+                cpu="2" gpu="-1" restrict="1" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+		<gear_config tempGear="12"
+                cpu="3" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+		<gear_config tempGear="13"
+                cpu="4" gpu="3" restrict="4" brightness="11" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="80" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+
+		<gear_config tempGear="14"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="2" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+           </scene_104>
+
+           <scene_105>
+                <gear_config tempGear="3"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="4"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="5"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="7"
+                cpu="2" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="8"
+                cpu="3" gpu="-1" restrict="0" brightness="0" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="9"
+                cpu="4" gpu="-1" restrict="0" brightness="0" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="1"/>
+
+                <gear_config tempGear="10"
+                cpu="4" gpu="-1" restrict="3" brightness="0" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="1"/>
+
+                <gear_config tempGear="11"
+                cpu="6" gpu="3" restrict="0" brightness="0" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="80" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="1"/>
+
+                <gear_config tempGear="13"
+                cpu="6" gpu="3" restrict="0" brightness="11" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="0" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="1"/>
+
+                <gear_config tempGear="14"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="2" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="1"/>
+          </scene_105>
+
+          <scene_150>
+              <gear_config tempGear="3"
+              cpu="-1" gpu="-1" restrict="0" brightness="11" charge="2" modem="0" disFlashlight="0"
+              stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+              <gear_config tempGear="6"
+              cpu="6" gpu="4" restrict="1" brightness="11" charge="2" modem="0" disFlashlight="0"
+              stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+              <gear_config tempGear="8"
+              cpu="9" gpu="4" restrict="0" brightness="11" charge="2" modem="3" disFlashlight="0"
+              stopCameraVideo="0" cameraBrightness="80" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+          </scene_150>
+        </scene>
+
+        <category>
+            <category_9>
+                <gear_config tempGear="3"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="4"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="5"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="7"
+                cpu="2" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="8"
+                cpu="3" gpu="-1" restrict="0" brightness="0" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="9"
+                cpu="4" gpu="-1" restrict="0" brightness="0" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="10"
+                cpu="4" gpu="-1" restrict="3" brightness="0" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="1"/>
+
+                <gear_config tempGear="11"
+                cpu="6" gpu="3" restrict="0" brightness="0" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="80" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="1"/>
+
+                <gear_config tempGear="13"
+                cpu="6" gpu="3" restrict="0" brightness="11" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="0" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="1"/>
+
+                <gear_config tempGear="14"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="2" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="1"/>
+            </category_9>
+
+            <category_13>
+                <gear_config tempGear="3"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="4"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="8"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="9"
+                cpu="0" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="10"
+                cpu="1" gpu="3" restrict="3" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="100" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="1"/>
+
+                <gear_config tempGear="11"
+                cpu="2" gpu="3" restrict="0" brightness="11" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="80" disCamera="0" disWifiHotSpot="1" disTorch="0" disFrameInsert="0" fps="0" refreshRate="1"/>
+
+                <gear_config tempGear="12"
+                cpu="3" gpu="3" restrict="0" brightness="11" charge="2" modem="3" disFlashlight="1"
+                stopCameraVideo="0" cameraBrightness="50" disCamera="0" disWifiHotSpot="1" disTorch="0" disFrameInsert="0" fps="0" refreshRate="1"/>
+
+                <gear_config tempGear="13"
+                cpu="9" gpu="4" restrict="0" brightness="11" charge="2" modem="3" disFlashlight="1"
+                stopCameraVideo="0" cameraBrightness="50" disCamera="0" disWifiHotSpot="1" disTorch="0" disFrameInsert="0" fps="0" refreshRate="1"/>
+
+                <gear_config tempGear="14"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="2" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="50" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="1"/>
+            </category_13>
+
+            <category_12-category_14-category_16>
+                <gear_config tempGear="3"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="4"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="5"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="7"
+                cpu="0" gpu="-1" restrict="0" brightness="0" charge="2" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="8"
+                cpu="1" gpu="-1" restrict="0" brightness="0" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="10"
+                cpu="2" gpu="-1" restrict="3" brightness="0" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="11"
+                cpu="3" gpu="3" restrict="0" brightness="0" charge="2" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="80" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="13"
+                cpu="3" gpu="3" restrict="0" brightness="11" charge="2" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="0" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="14"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="2" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="1"/>
+            </category_12-category_14-category_16>
+        </category>
+
+        <default>
+            <common_config>
+                <gear_config tempGear="5"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="7" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="7"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="8"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="9"
+                cpu="-1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="0" disOSIE="0" disHBMHB="0"/>
+                <gear_config tempGear="10"
+                cpu="1" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+                <gear_config tempGear="11"
+                cpu="2" gpu="-1" restrict="1" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+                <gear_config tempGear="12"
+                cpu="3" gpu="-1" restrict="0" brightness="0" charge="3" modem="0" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="200" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+                <gear_config tempGear="13"
+                cpu="4" gpu="3" restrict="4" brightness="11" charge="3" modem="3" disFlashlight="0"
+                stopCameraVideo="0" cameraBrightness="80" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+                <gear_config tempGear="14"
+                cpu="9" gpu="4" restrict="5" brightness="11" charge="3" modem="3" disFlashlight="1"
+                stopCameraVideo="1" cameraBrightness="80" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="1" disVideoSR="1" disOSIE="1" disHBMHB="1"/>
+            </common_config>
+        </default>
+    </thermalPolicyConfigItem>
+</sys_thermal_control_list>
